@@ -56,7 +56,7 @@
                         android:layout_marginTop="6dp"
                         android:text="Universitas Kristen Petra"
                         android:textColor = "@android:color/white"
-                        android:textsize="22sp"
+                        android:textSize="22sp"
                         android:textStyle="bold">
                     </TextView>
 
@@ -67,7 +67,6 @@
                         android:scaleType="fitCenter"
                         android:src="@drawable/logopetra"/>
             </LinearLayout>
-
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -87,7 +86,94 @@
                     android:textSize="13sp"/>
 
             </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-28dp"
+            android:orientation="horizontal"
+            android:paddingHorizontal="20dp"
+            android:id="@+id/sec">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_modern_card_rounded"
+                android:elevation="4dp"
+                android:orientation="vertical"
+                android:padding="18dp"
+                android:id="@+id/sec_statistik_kiri">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DIDIRIKAN"
+                    android:textColor="#64748B"
+                    android:textSize="10sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:text="2 Sept 1961"
+                    android:textColor="#0F172A"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Yayasan PPPK Petra"
+                    android:textColor="#475569"
+                    android:textSize = "11sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_modern_card_rounded"
+                android:elevation="4dp"
+                android:orientation="vertical"
+                android:padding="18dp"
+                android:id="@+id/sec_statistik_kanan">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MAHASISWA"
+                    android:textColor="#64748B"
+                    android:textSize="10sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:text="7.000+"
+                    android:textColor="#0F172A"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Aktif &amp; Dinamis"
+                    android:textColor="#0284C7"
+                    android:textSize = "11sp"/>
+
+            </LinearLayout>
+
 
         </LinearLayout>
+
     </LinearLayout>
 </ScrollView>
